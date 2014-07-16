@@ -275,7 +275,7 @@ print_flight_mode(AP_HAL::BetterStream *port, uint8_t mode)
         port->print_P(PSTR("ALT_HOLD"));
         break;
     case AUTO:
-        port->print_P(PSTR("AUTO"));
+        port->print_P(PSTR("AUTO_TEST"));
         break;
     case GUIDED:
         port->print_P(PSTR("GUIDED"));
